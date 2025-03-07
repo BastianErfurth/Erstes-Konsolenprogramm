@@ -40,9 +40,9 @@ void main() {
           print("Hervorragen! Dein Notendurchnistt ist: $avgResult");
         case >= 2 && < 3:
           print("Super! Dein Notendurchschnitt ist: $avgResult");
-        case >= 3 && <= 4:
+        case >= 3 && < 4:
           print("in Ordnung! Dein Notendurchschnitt ist: $avgResult");
-        case >= 4 && >= 6:
+        case >= 4 && < 6:
           print(
               "Du musst dringend lernen!!! Dein Notendurchschnitt ist: $avgResult");
       }
